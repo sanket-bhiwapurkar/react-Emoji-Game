@@ -1,0 +1,17 @@
+.bg-container {
+  background-image: linear-gradient(135deg, #9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 94vh;
+}
+.emoji-card-container {
+  max-width: 900px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

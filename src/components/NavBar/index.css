@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #b3b1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 0px 80px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50%;
+}
+.scoreboard {
+  display: flex;
+  font-size: 18px;
+}
+.score {
+  margin-right: 30px;
+}

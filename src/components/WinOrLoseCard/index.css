@@ -1,0 +1,47 @@
+.result-card {
+  background-color: #b3b1f1;
+  border: 2px solid #ffffff33;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 30px;
+}
+.result-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.result-heading {
+  font-size: 45px;
+  color: #ffffff;
+}
+.best-score {
+  margin: 0px;
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.result-score {
+  margin: 0px;
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.play-btn {
+  margin-top: 20px;
+  height: 36px;
+  width: 86px;
+  background-color: #ffce27;
+  border: 0px;
+  outline: none;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.balloons {
+  width: 45%;
+}
