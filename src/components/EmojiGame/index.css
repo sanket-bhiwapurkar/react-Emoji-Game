@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   min-height: 94vh;
+  padding: 20px;
 }
 .emoji-card-container {
-  max-width: 900px;
+  max-width: 500px;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -14,4 +15,9 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .emoji-card-container {
+    max-width: 900px;
+  }
 }

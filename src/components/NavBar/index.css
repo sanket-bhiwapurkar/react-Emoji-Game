@@ -4,19 +4,36 @@
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
-  padding: 0px 80px;
+  padding: 0px 20px;
 }
 .logo-container {
   display: flex;
   align-items: center;
 }
 .logo {
-  height: 50%;
+  width: 30px;
 }
 .scoreboard {
   display: flex;
   font-size: 18px;
 }
 .score {
-  margin-right: 30px;
+  margin-right: 10px;
+}
+.logo-title {
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .logo-title {
+    font-size: 24px;
+  }
+  .navbar {
+    padding: 0px 80px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .score {
+    margin-right: 30px;
+  }
 }

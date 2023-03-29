@@ -3,12 +3,14 @@
   border: 2px solid #ffffff33;
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   font-family: 'Roboto';
   padding: 30px;
 }
 .result-text {
+  order: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,4 +46,12 @@
 }
 .balloons {
   width: 45%;
+}
+@media screen and (min-width: 768px) {
+  .result-card {
+    flex-direction: row;
+  }
+  .result-text {
+    order: -1;
+  }
 }
